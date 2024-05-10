@@ -26,7 +26,7 @@ class ListaCliente extends Component {
                         <tr>
                             <td>
                                 <details className="collapse">
-                                    <summary>Victor</summary>
+                                    <summary>Solange</summary>
                                     <div className="row">
                                         <form className="col">
                                             <div className="input-field col s2">

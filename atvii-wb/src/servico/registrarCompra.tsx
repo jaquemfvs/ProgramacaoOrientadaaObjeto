@@ -16,7 +16,7 @@ export default class RegistrarCompra extends Component<any>{
                             <h6>Selecione o cliente</h6>
                             <select>
                                 <option value="" disabled selected>Clientes</option>
-                                <option value="1">Victor</option>
+                                <option value="1">Solange</option>
                                 <option value="2">Ana</option>
                             </select>
                         </div>
@@ -24,7 +24,7 @@ export default class RegistrarCompra extends Component<any>{
                             <h6>Selecione o produto</h6>
                             <select multiple>
                                 <option value="">Shampoo</option>
-                                <option value="">Pente</option>
+                                <option value="">Creme Corporal</option>
                             </select>
                         </div>
                         <div className="col s6">

@@ -30,7 +30,7 @@ const Listagem = () => {
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>16</td>
                                         <td>12</td>
                                     </tr>
@@ -65,7 +65,7 @@ const Listagem = () => {
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>R$160</td>
                                         <td>R$120</td>
                                     </tr>
@@ -101,8 +101,8 @@ const Listagem = () => {
 
                                 <tbody>
                                     <tr>
-                                        <td>Victor</td>
-                                        <td>M</td>
+                                        <td>Solange</td>
+                                        <td>F</td>
                                     </tr>
                                     <tr>
                                         <td>Ana</td>

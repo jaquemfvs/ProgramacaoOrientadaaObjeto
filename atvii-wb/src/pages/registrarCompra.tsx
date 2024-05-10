@@ -19,7 +19,7 @@ class RegistrarCompra extends Component {
                             <h6>Selecione o cliente</h6>
                             <select defaultValue="-1">
                                 <option value="-1" disabled>Clientes</option>
-                                <option value="1">Victor</option>
+                                <option value="1">Solange</option>
                                 <option value="2">Ana</option>
                             </select>
                         </div>

@@ -41,7 +41,7 @@ export default class Listagem extends Component<any>{
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Victor</td>
+                                            <td>Solange</td>
                                             <td>16</td>
                                             <td>12</td>
                                         </tr>
@@ -53,7 +53,7 @@ export default class Listagem extends Component<any>{
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Luiz</td>
+                                            <td>João</td>
                                             <td>8</td>
                                             <td>8</td>
                                         </tr>
@@ -78,7 +78,7 @@ export default class Listagem extends Component<any>{
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Victor</td>
+                                            <td>Solange</td>
                                             <td>R$160</td>
                                             <td>R$120</td>
                                         </tr>
@@ -90,7 +90,7 @@ export default class Listagem extends Component<any>{
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Luiz</td>
+                                            <td>João</td>
                                             <td>R$80</td>
                                             <td>R$80</td>
                                         </tr>
@@ -114,15 +114,15 @@ export default class Listagem extends Component<any>{
     
                                     <tbody>
                                         <tr>
-                                            <td>Victor</td>
-                                            <td>M</td>
+                                            <td>Solange</td>
+                                            <td>F</td>
                                         </tr>
                                         <tr>
                                             <td>Ana</td>
                                             <td>F</td>
                                         </tr>
                                         <tr>
-                                            <td>Luiz</td>
+                                            <td>João</td>
                                             <td>M</td>
                                         </tr>
                                     </tbody>
@@ -197,7 +197,7 @@ export default class Listagem extends Component<any>{
                                             <td>30</td>
                                         </tr>
                                         <tr>
-                                            <td>Pente</td>
+                                            <td>Creme Corporal</td>
                                             <td>25</td>
                                         </tr>
                                     </tbody>
@@ -249,13 +249,13 @@ export default class Listagem extends Component<any>{
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>Luiz</td>
+                                                <td>João</td>
                                                 <td>5</td>
                                                 <td>4</td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>Victor</td>
+                                                <td>Solange</td>
                                                 <td>7</td>
                                                 <td>6</td>
                                             </tr>
