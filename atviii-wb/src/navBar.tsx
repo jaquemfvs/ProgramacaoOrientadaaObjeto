@@ -17,8 +17,7 @@ export default class NavBar extends Component<any>{
                 <nav className="#f06292 pink lighten-2">
                     <div className="nav-wrapper">
                         <a className="brand-logo" href='/home'>WB</a>
-                        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                        <a data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                        <a href='/' data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
                             <li><a className="waves-effect" href="/home">Home</a></li>
                             <li><a className="waves-effect" href="/listaCliente">Clientes</a></li>

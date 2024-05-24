@@ -1,6 +1,6 @@
 import React from 'react';
-import 'materialize-css/dist/css/materialize.min.css';
-import M from 'materialize-css';
+import 'materialize-css/dist/css/materialize.min.css'
+import M from 'materialize-css'
 
 function componentDidMount() {
     document.addEventListener('DOMContentLoaded', function () {
@@ -18,15 +18,15 @@ const ListaCliente = () => {
                     <div className="collapsible-header"><i className="material-icons">person</i>Victor</div>
                     <div className="collapsible-body row">
                         <div className="col s4">
-                            <h6 id="nome_cliente">Victor</h6>
+                            <h6 id="nome_cliente">Solange</h6>
                             <label htmlFor="nome_cliente">Nome</label>
                         </div>
                         <div className="col s4">
-                            <h6 id="social">Vitu</h6>
+                            <h6 id="social">Solange V</h6>
                             <label htmlFor="social">Nome social</label>
                         </div>
                         <div className="col s4">
-                            <h6 id="genero">M</h6>
+                            <h6 id="genero">F</h6>
                             <label htmlFor="genero">Gênero</label>
                         </div>
                         <div className="col s4">
@@ -63,7 +63,7 @@ const ListaCliente = () => {
                             <label htmlFor="nome_cliente">Nome</label>
                         </div>
                         <div className="col s4">
-                            <h6 id="social">Aninha</h6>
+                            <h6 id="social">Ana F</h6>
                             <label htmlFor="social">Nome social</label>
                         </div>
                         <div className="col s4">
@@ -100,11 +100,11 @@ const ListaCliente = () => {
                     <div className="collapsible-header"><i className="material-icons">person</i>Luiz</div>
                     <div className="collapsible-body row">
                         <div className="col s4">
-                            <h6 id="nome_cliente">Luiz</h6>
+                            <h6 id="nome_cliente">João</h6>
                             <label htmlFor="nome_cliente">Nome</label>
                         </div>
                         <div className="col s4">
-                            <h6 id="social">Lulu</h6>
+                            <h6 id="social">João S</h6>
                             <label htmlFor="social">Nome social</label>
                         </div>
                         <div className="col s4">

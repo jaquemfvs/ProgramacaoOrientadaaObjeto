@@ -1,7 +1,8 @@
-import React from "react"
+import  React from 'react'
 import 'materialize-css/dist/css/materialize.min.css'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+
 
 const Listagem = () => {
 

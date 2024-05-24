@@ -28,7 +28,7 @@ const NavBar = () => {
             <nav className="#f06292 pink lighten-2">
                 <div className="nav-wrapper">
                     <a className="brand-logo" href='/listaCliente'>WB</a>
-                    <a data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <a href='/' data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i> </a>
                     <ul className="right hide-on-med-and-down">
                         {botoes}
                     </ul>
