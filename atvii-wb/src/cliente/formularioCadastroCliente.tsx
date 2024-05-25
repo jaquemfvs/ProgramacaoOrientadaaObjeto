@@ -35,8 +35,8 @@ const FormularioCadastroCliente = () => {
                         </div>
                         <div className="row">
                             <div className="col s12">
-                                <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Cadastrar
-                                    <i className="material-icons right">send</i>
+                                <button className="btn waves-effect purple lighten-3" type="submit" name="action">Cadastrar
+                                <i className="material-icons right">send</i>
                                 </button>
                             </div>
                         </div>

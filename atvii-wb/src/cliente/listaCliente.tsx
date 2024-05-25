@@ -44,12 +44,12 @@ class ListaCliente extends Component {
                         </div>
                         <div className="collapsible-body row">
                             <div className="col">
-                                <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                                <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                     <i className="small material-icons right">border_color</i>
                                 </a>
                             </div>
                             <div className="col">
-                                <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                                <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                     <i className="small material-icons right">delete</i>
                                 </button>
                             </div>

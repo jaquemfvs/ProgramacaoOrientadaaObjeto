@@ -9,7 +9,7 @@ export default class Home extends Component<any>{
                 <div className="container">
                     <div className="row ">
                         <div className="col ">
-                            <div className="card #f06292 pink lighten-2">
+                            <div className="card purple lighten-3">
                                 <div className="card-content white-text">
                                     <span className="card-title">Cliente</span>
                                 </div>
@@ -21,7 +21,7 @@ export default class Home extends Component<any>{
                             </div>
                         </div>
                         <div className="col ">
-                            <div className="card #f06292 pink lighten-2 ">
+                            <div className="card purple lighten-3">
                                 <div className="card-content white-text ">
                                     <span className="card-title">Produto</span>
                                 </div>
@@ -33,7 +33,7 @@ export default class Home extends Component<any>{
                             </div>
                         </div>
                         <div className="col">
-                            <div className="card #f06292 pink lighten-2">
+                            <div className="card purple lighten-3">
                                 <div className="card-content white-text">
                                     <span className="card-title">Serviço</span>
                                 </div>

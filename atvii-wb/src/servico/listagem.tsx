@@ -165,7 +165,7 @@ export default class Listagem extends Component<any>{
     
                                     <tbody>
                                         <tr>
-                                            <td>Pedicure</td>
+                                            <td>Manicure</td>
                                             <td>F</td>
                                         </tr>
                                         <tr>
@@ -218,7 +218,7 @@ export default class Listagem extends Component<any>{
     
                                     <tbody>
                                         <tr>
-                                            <td>Pedicure</td>
+                                            <td>Manicure</td>
                                             <td>7</td>
                                         </tr>
                                         <tr>
