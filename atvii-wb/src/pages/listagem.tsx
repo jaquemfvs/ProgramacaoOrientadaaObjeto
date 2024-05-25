@@ -22,8 +22,8 @@ const Listagem = () => {
                                     <tr>
                                         <th>N°</th>
                                         <th>Nome</th>
-                                        <th>Qtd produtos consumidos</th>
-                                        <th>Qtd serviços utilizados</th>
+                                        <th>Produtos consumidos</th>
+                                        <th>Serviços utilizados</th>
                                     </tr>
                                 </thead>
 
@@ -57,8 +57,8 @@ const Listagem = () => {
                                     <tr>
                                         <th>N°</th>
                                         <th>Nome</th>
-                                        <th>Valor total de produtos consumidos</th>
-                                        <th>Valor total de serviços utilizados</th>
+                                        <th>Valor total de produtos</th>
+                                        <th>Valor total de serviços</th>
                                     </tr>
                                 </thead>
 
@@ -174,7 +174,7 @@ const Listagem = () => {
                                 <thead>
                                     <tr>
                                         <th>Produto</th>
-                                        <th>Qtd de pedidos</th>
+                                        <th>Pedidos</th>
                                     </tr>
                                 </thead>
 
@@ -196,7 +196,7 @@ const Listagem = () => {
                                 <thead>
                                     <tr>
                                         <th>Serviço</th>
-                                        <th>Qtd de pedidos</th>
+                                        <th>Pedidos</th>
                                     </tr>
                                 </thead>
 
@@ -223,8 +223,8 @@ const Listagem = () => {
                                     <tr>
                                         <th>N°</th>
                                         <th>Nome</th>
-                                        <th>Qtd produtos consumidos</th>
-                                        <th>Qtd serviços utilizados</th>
+                                        <th>Produtos consumidos</th>
+                                        <th>Serviços utilizados</th>
                                     </tr>
                                 </thead>
 

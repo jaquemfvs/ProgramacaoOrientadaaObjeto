@@ -16,10 +16,10 @@ export default class Listagem extends Component<any>{
                 <div className="row">
                     <div className="col s12">
                         <ul className="tabs">
-                            <li className="tab col s3"><a className='active' href='#clientesMaisConsumiram'>Clientes que mais consumiram</a></li>
-                            <li className="tab col s3"><a href="#generoClientes">Gênero clientes</a></li>
-                            <li className="tab col s3"><a href="#produtosServicosMaisConsumidos">Produtos e serviços mais consumidos</a></li>
-                            <li className="tab col s3"><a href="#clientesMenosConsumiram">Clientes que menos consumiram</a></li>
+                            <li className="tab col s3"><a className='active purple-text' href='#clientesMaisConsumiram'>Clientes que mais consumiram</a></li>
+                            <li className="tab col s3"><a className='purple-text' href="#generoClientes">Gênero clientes</a></li>
+                            <li className="tab col s3"><a className='purple-text' href="#produtosServicosMaisConsumidos">Produtos e serviços mais consumidos</a></li>
+                            <li className="tab col s3"><a className='purple-text' href="#clientesMenosConsumiram">Clientes que menos consumiram</a></li>
                         </ul>
                     </div>
     
@@ -33,8 +33,8 @@ export default class Listagem extends Component<any>{
                                         <tr>
                                             <th>N°</th>
                                             <th>Nome</th>
-                                            <th>Qtd produtos consumidos</th>
-                                            <th>Qtd serviços utilizados</th>
+                                            <th>Produtos consumidos</th>
+                                            <th>Serviços utilizados</th>
                                         </tr>
                                     </thead>
     
@@ -70,8 +70,8 @@ export default class Listagem extends Component<any>{
                                         <tr>
                                             <th>N°</th>
                                             <th>Nome</th>
-                                            <th>Valor total de produtos consumidos</th>
-                                            <th>Valor total de serviços utilizados</th>
+                                            <th>Valor total de produtos</th>
+                                            <th>Valor total de serviços</th>
                                         </tr>
                                     </thead>
     
@@ -102,7 +102,7 @@ export default class Listagem extends Component<any>{
                     {/* Gênero clientes */}
                     <div id="generoClientes" className="col s12">
                         <div className="row">
-                        <h6 className="text-align: center">Todos os clientes por gênero</h6>
+                        <h6 className="text-align: center">Clientes por gênero</h6>
                             <div className="col s12" >
                                 <table className="centered responsive-table ">
                                     <thead>
@@ -187,7 +187,7 @@ export default class Listagem extends Component<any>{
                                     <thead>
                                         <tr>
                                             <th>Produto</th>
-                                            <th>Qtd de pedidos</th>
+                                            <th>Pedidos</th>
                                         </tr>
                                     </thead>
     
@@ -212,7 +212,7 @@ export default class Listagem extends Component<any>{
                                     <thead>
                                         <tr>
                                             <th>Serviço</th>
-                                            <th>Qtd de pedidos</th>
+                                            <th>Pedidos</th>
                                         </tr>
                                     </thead>
     
@@ -241,8 +241,8 @@ export default class Listagem extends Component<any>{
                                             <tr>
                                                 <th>N°</th>
                                                 <th>Nome</th>
-                                                <th>Qtd produtos consumidos</th>
-                                                <th>Qtd serviços utilizados</th>
+                                                <th>Produtos consumidos</th>
+                                                <th>Serviços utilizados</th>
                                             </tr>
                                         </thead>
     

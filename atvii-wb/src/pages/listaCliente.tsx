@@ -17,8 +17,8 @@ class ListaCliente extends Component {
                     <thead>
                         <tr>
                             <th>Nome</th>
-                            <th>Qtd produtos comprados</th>
-                            <th>Qtd serviços utilizados</th>
+                            <th>Produtos comprados</th>
+                            <th>Serviços utilizados</th>
                         </tr>
                     </thead>
 
