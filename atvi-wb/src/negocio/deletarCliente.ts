@@ -14,14 +14,14 @@ export default class ExcluirCliente extends Excluir {
     }
 
     public Exclui(): void {
-        console.log(`\nInício da Exclusão do cliente`);
+        console.log(`\n Deletando cliente`);
         executa = true;
         while (executa) {
-            let busca = this.entrada.receberTexto(`Por favor informe o número do cpf do cliente: `);
+            let busca = this.entrada.receberTexto(`Insira o número do cpf do cliente: `);
             let cont = 1;
             this.clientes.forEach(cliente => {
                 if (cliente.getCpf.getValor == busca) {
-                    console.log(`Cliente encontrado, nome: ${cliente.nome}, deseja realmente excluir o cliente? `);
+                    console.log(`Cliente encontrado, nome: ${cliente.nome}, deseja excluir o cliente? `);
                     let confirma = this.entrada.receberNumero(`1 - excluir, 2 - cancelar: `)
                     switch(confirma){
                         case 1:
@@ -38,7 +38,7 @@ export default class ExcluirCliente extends Excluir {
                     }
                 }
                 else if(cont == this.clientes.length){
-                    console.log(`\n nenhum cliente encontrado com o cpf informado!!! \n`); 
+                    console.log(`\n Cliente não encontrado! \n`); 
                     executa = false;
                 }
                 else {

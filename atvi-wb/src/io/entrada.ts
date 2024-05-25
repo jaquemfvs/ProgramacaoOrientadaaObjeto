@@ -13,22 +13,22 @@ export default class Entrada {
             let valor = prompt(mensagem)
             let data = valor.replace(/[^0-9]/g,'')
             if(valor == ""){
-                console.log("Esse campo é obrigatorio!");
+                console.log("Campo obrigatório!");
                 exe = true
             }else if(valor.replace(/[^0-9]/g,'').length < 8){
-                console.log("Esse campo não pode ser menor que 8 digitos! E deve conter apenas números!");
+                console.log("Campo maior que 8 dígitos, somente números!");
                 exe = true
             }else if(valor.replace(/[^0-9]/g,'').length > 8){
-                console.log("Esse campo não pode ser maior que 8 digitos!")
+                console.log("Campo menor que 8 dígitos.")
                 exe = true
             }else if(Number(data.slice(0,2)) > 31){
-                console.log("O dia não pode ser superior a 31!");
+                console.log("Dia menor que 31!");
                 exe = true
             }else if(Number(data.slice(2, 4)) > 12){
-                console.log("O mês não pode ser superior a 12!");
+                console.log("Mês somente até 12!");
                 exe = true
             }else if(Number(data.slice(2, 4)) == 2 && Number(data.slice(0,2)) > 29){
-                console.log("O dia não pode ser superior a 29 em fevereiro!");
+                console.log("Fevereiro tem até 29 dias");
                 exe = true
             }else{                
                 exe = false
@@ -43,13 +43,13 @@ export default class Entrada {
         while (exe) {
             let valor = prompt(mensagem)
             if(valor == ""){
-                console.log("Esse campo é obrigatorio!");
+                console.log("Campo Obrigatório!");
                 exe = true
             }else if(valor.replace(/[^0-9]/g,'').length < 11){
-                console.log("Esse campo não pode ser menor que 11 digitos! E deve conter apenas números!");
+                console.log("Campo maior que 11 dígitos, somente números!");
                 exe = true
             }else if(valor.replace(/[^0-9]/g,'').length > 11){
-                console.log("Esse campo não pode ser maior que 11 digitos!")
+                console.log("Campo menor que 11 dígitos.")
                 exe = true
             }else{
                 exe = false
@@ -65,10 +65,10 @@ export default class Entrada {
             let texto = prompt(mensagem)
             let resto = texto.slice(1,texto.length)
             if (texto == ""){
-                console.log("Esse campo é obrigatorio!");
+                console.log("Campo Obrigatório!");
                 exe = true
             }else if(texto.length < 3){
-                console.log("Esse campo não pode ser menor que três digitos!");
+                console.log("Campo maior que 3 dígitos!");
                 exe = true
             }
             else{
@@ -76,7 +76,7 @@ export default class Entrada {
                 return texto[0].toUpperCase()+resto.toLowerCase()
             }
         }
-        return "Como você chegou aqui???"
+        return "Como conseguiu nosso contato?"
     }
 
     public receberGenero(mensagem: string): string{
@@ -85,7 +85,7 @@ export default class Entrada {
         while (exe) {
             let texto = prompt(mensagem)
             if (texto == ""){
-                console.log("Esse campo é obrigatorio!");
+                console.log("Campo Obrigatório!");
                 exe = true
             }else if(texto[0].toUpperCase() == 'M'){
                 exe = false
@@ -95,11 +95,11 @@ export default class Entrada {
                 return 'Feminino'
             }
             else{
-                console.log("Esse campo não pode receber gênero diferente de Masculino e Feminino no exato momento!");
+                console.log("Somente gênero Masculino e Feminino!");
                 exe = true
             }
         }
-        return "Como você chegou aqui???"
+        return "Como conseguiu nosso contato?"
     }
     
 }

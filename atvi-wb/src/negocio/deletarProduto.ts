@@ -14,14 +14,14 @@ export default class ExcluirProduto extends Excluir {
     }
 
     public Exclui(): void {
-        console.log(`\nInício da Exclusão do Produto`);
+        console.log(`\n Deletando o Produto`);
         executa = true
         while (executa){
-            let busca = this.entrada.receberTexto(`Por favor informe o nome do Produto: `);
+            let busca = this.entrada.receberTexto(`Insira o nome do Produto: `);
             let cont = 1
             this.produtos.forEach(produto =>{
                 if (produto.nome == busca){
-                    console.log(`Produto encontrado, deseja realmente excluir o Produto?`);
+                    console.log(`Produto encontrado, deseja excluir o Produto?`);
                     let confirma = this.entrada.receberNumero(`1 - excluir, 2 - cancelar: `)
                     switch(confirma){
                         case 1:
@@ -38,7 +38,7 @@ export default class ExcluirProduto extends Excluir {
                     }
                 }
                 else if(cont == this.produtos.length){
-                    console.log(`\n nenhum Produto encontrado com o nome informado!!! \n`); 
+                    console.log(`\n Produto não encontrado! \n`); 
                     executa = false
                 }
                 else{

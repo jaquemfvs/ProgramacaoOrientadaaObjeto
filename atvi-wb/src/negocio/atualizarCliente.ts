@@ -20,14 +20,14 @@ export default class AtualizarCliente extends Atualizar {
         this.clientes.forEach(cliente =>{
             if (cliente.getCpf.getValor == busca){
                 console.log(`Cliente encontrado, forneça as informações:`);
-                let nome = this.entrada.receberTexto(`Por favor informe o nome do cliente: `)
-                let nomeSocial = this.entrada.receberTexto(`Por favor informe o nome social do cliente: `)
+                let nome = this.entrada.receberTexto(`Insira o nome do cliente: `)
+                let nomeSocial = this.entrada.receberTexto(`Insira o nome social do cliente: `)
                 cliente.nome = nome
                 cliente.nomeSocial = nomeSocial
                 console.log(`\nCadastro atualizado :)\n`);
             }
             else if(cont == this.clientes.length){
-                console.log(`\n nenhum cliente encontrado com o cpf informado!!! \n`); 
+                console.log(`\n CPF não encontrado! \n`); 
             }
             else{
                 cont++

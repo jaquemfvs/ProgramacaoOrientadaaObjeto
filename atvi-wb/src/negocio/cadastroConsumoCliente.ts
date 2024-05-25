@@ -17,7 +17,7 @@ export default class CadastroConsumoCliente extends Cadastro{
         this.clientes = clientes
     }
     public cadastrar(): void {
-        let proc = this.entrada.receberCpf(`Informe o cpf da pessoa: `)
+        let proc = this.entrada.receberCpf(`Insira o cpf do cliente: `)
         let exe = true
         let c = 1
         let execucao = true
@@ -34,7 +34,7 @@ export default class CadastroConsumoCliente extends Cadastro{
                         let cont = 1
                         switch(op){
                             case 1:
-                                let produtoNome = this.entrada.receberTexto(`Informe o nome do produto: `)
+                                let produtoNome = this.entrada.receberTexto(`Insira o nome do produto: `)
                                 this.empresa.getProdutos.forEach(prod => {
                                     if(prod.nome == produtoNome){
                                         cliente.addProduto(prod)
@@ -48,7 +48,7 @@ export default class CadastroConsumoCliente extends Cadastro{
                                 })
                                 break
                             case 2:
-                                let servicoNome = this.entrada.receberTexto(`Informe o nome do serviço: `)
+                                let servicoNome = this.entrada.receberTexto(`Insira o nome do serviço: `)
                                 this.empresa.getServicos.forEach(ser => {
                                     if(ser.nome == servicoNome){
                                         cliente.addServico(ser)
@@ -72,7 +72,7 @@ export default class CadastroConsumoCliente extends Cadastro{
                         }
                     }
                 }else if(c == this.clientes.length){
-                    console.log(chalk.redBright('CPF invalido!'));
+                    console.log(chalk.redBright('CPF inválido!'));
                     console.log('\n')
                     execucao = false
                 }else{
