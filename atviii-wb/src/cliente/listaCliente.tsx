@@ -15,7 +15,7 @@ const ListaCliente = () => {
         <>
             <ul className="collapsible">
                 <li>
-                    <div className="collapsible-header"><i className="material-icons">person</i>Victor</div>
+                    <div className="collapsible-header"><i className="material-icons">person</i>Solange</div>
                     <div className="collapsible-body row">
                         <div className="col s4">
                             <h6 id="nome_cliente">Solange</h6>
@@ -44,12 +44,12 @@ const ListaCliente = () => {
                     </div>
                     <div className="collapsible-body row">
                         <div className="col">
-                            <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                            <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                 <i className="small material-icons right">border_color</i>
                             </a>
                         </div>
                         <div className="col">
-                            <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                 <i className="small material-icons right">delete</i>
                             </button>
                         </div>
@@ -85,19 +85,19 @@ const ListaCliente = () => {
                     </div>
                     <div className="collapsible-body row">
                         <div className="col">
-                            <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                            <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                 <i className="small material-icons right">border_color</i>
                             </a>
                         </div>
                         <div className="col">
-                            <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                 <i className="small material-icons right">delete</i>
                             </button>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div className="collapsible-header"><i className="material-icons">person</i>Luiz</div>
+                    <div className="collapsible-header"><i className="material-icons">person</i>João</div>
                     <div className="collapsible-body row">
                         <div className="col s4">
                             <h6 id="nome_cliente">João</h6>
@@ -126,12 +126,12 @@ const ListaCliente = () => {
                     </div>
                     <div className="collapsible-body row">
                         <div className="col">
-                            <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                            <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                 <i className="small material-icons right">border_color</i>
                             </a>
                         </div>
                         <div className="col">
-                            <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                 <i className="small material-icons right">delete</i>
                             </button>
                         </div>

@@ -17,7 +17,7 @@ export default class RegistrarCompra extends Component<any>{
                             <h6>Selecione o cliente</h6>
                             <select>
                                 <option value="" disabled selected>Clientes</option>
-                                <option value="1">Victor</option>
+                                <option value="1">Solange</option>
                                 <option value="2">Ana</option>
                             </select>
                         </div>
@@ -25,7 +25,7 @@ export default class RegistrarCompra extends Component<any>{
                             <h6>Selecione o produto</h6>
                             <select multiple>
                                 <option value="">Shampoo</option>
-                                <option value="">Pente</option>
+                                <option value="">Condicionador</option>
                             </select>
                         </div>
                         <div className="col s6">
@@ -38,7 +38,7 @@ export default class RegistrarCompra extends Component<any>{
                         
                         <div className="row">
                             <div className="col s12">
-                                <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Registrar
+                                <button className="btn waves-effect purple lighten-3" type="submit" name="action">Registrar
                                     <i className="material-icons right">send</i>
                                 </button>
                             </div>

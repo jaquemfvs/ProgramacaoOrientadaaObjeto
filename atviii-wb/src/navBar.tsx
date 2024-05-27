@@ -14,7 +14,7 @@ export default class NavBar extends Component<any>{
     render() {
         return (
             <>
-                <nav className="#f06292 pink lighten-2">
+                <nav className="purple lighten-3">
                     <div className="nav-wrapper">
                         <a className="brand-logo" href='/home'>WB</a>
                         <a href='/' data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i></a>

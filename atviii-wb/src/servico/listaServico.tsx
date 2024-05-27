@@ -34,23 +34,23 @@ const ListaServico = () => {
                     </div>
                     <div className="collapsible-body row">
                         <div className="col">
-                            <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                            <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                 <i className="small material-icons right">border_color</i>
                             </a>
                         </div>
                         <div className="col">
-                            <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                 <i className="small material-icons right">delete</i>
                             </button>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div className="collapsible-header"><i className="material-icons">arrow_drop_down</i>Pedicure</div>
+                    <div className="collapsible-header"><i className="material-icons">arrow_drop_down</i>Manicure</div>
                     <div className="collapsible-body row centered">
                         <div className="col">
                             <div className="col s4">
-                                <h6 id="nome_servico">Pedicure</h6>
+                                <h6 id="nome_servico">Manicure</h6>
                                 <label htmlFor="nome_servico">Nome</label>
                             </div>
                             <div className="col s4">
@@ -65,12 +65,12 @@ const ListaServico = () => {
                     </div>
                     <div className="collapsible-body row">
                         <div className="col">
-                            <a className="btn waves-effect #f06292 pink lighten-2" href='/edicaoCliente'>Atualizar
+                            <a className="btn waves-effect purple lighten-3" href='/edicaoCliente'>Atualizar
                                 <i className="small material-icons right">border_color</i>
                             </a>
                         </div>
                         <div className="col">
-                            <button className="btn waves-effect #f06292 pink lighten-2" type="submit" name="action">Excluir
+                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Excluir
                                 <i className="small material-icons right">delete</i>
                             </button>
                         </div>

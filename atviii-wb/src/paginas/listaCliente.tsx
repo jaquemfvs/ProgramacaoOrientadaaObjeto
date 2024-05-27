@@ -18,8 +18,8 @@ const ListaCliente = () => {
                 <thead>
                     <tr>
                         <th>Nome</th>
-                        <th>Qtd produtos comprados</th>
-                        <th>Qtd serviços utilizados</th>
+                        <th>Produtos comprados</th>
+                        <th>Serviços utilizados</th>
                     </tr>
                 </thead>
 
@@ -27,7 +27,7 @@ const ListaCliente = () => {
                     <tr>
                         <td>
                             <details className="collapse">
-                                <summary>Victor</summary>
+                                <summary>Solange</summary>
                                 <div className="row">
                                     <form className="col">
                                         <div className="input-field col s2">

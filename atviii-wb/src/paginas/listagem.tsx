@@ -24,15 +24,15 @@ const Listagem = () => {
                                     <tr>
                                         <th>N°</th>
                                         <th>Nome</th>
-                                        <th>Qtd produtos consumidos</th>
-                                        <th>Qtd serviços utilizados</th>
+                                        <th>Produtos consumidos</th>
+                                        <th>Serviços utilizados</th>
                                     </tr>
                                 </thead>
 
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>16</td>
                                         <td>12</td>
                                     </tr>
@@ -67,7 +67,7 @@ const Listagem = () => {
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>R$160</td>
                                         <td>R$120</td>
                                     </tr>
@@ -103,7 +103,7 @@ const Listagem = () => {
 
                                 <tbody>
                                     <tr>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>M</td>
                                     </tr>
                                     <tr>
@@ -176,7 +176,7 @@ const Listagem = () => {
                                 <thead>
                                     <tr>
                                         <th>Produto</th>
-                                        <th>Qtd de pedidos</th>
+                                        <th>Pedidos</th>
                                     </tr>
                                 </thead>
 
@@ -198,7 +198,7 @@ const Listagem = () => {
                                 <thead>
                                     <tr>
                                         <th>Serviço</th>
-                                        <th>Qtd de pedidos</th>
+                                        <th>Pedidos</th>
                                     </tr>
                                 </thead>
 
@@ -225,8 +225,8 @@ const Listagem = () => {
                                     <tr>
                                         <th>N°</th>
                                         <th>Nome</th>
-                                        <th>Qtd produtos consumidos</th>
-                                        <th>Qtd serviços utilizados</th>
+                                        <th>Produtos consumidos</th>
+                                        <th>Serviços utilizados</th>
                                     </tr>
                                 </thead>
 
@@ -239,7 +239,7 @@ const Listagem = () => {
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>Victor</td>
+                                        <td>Solange</td>
                                         <td>7</td>
                                         <td>6</td>
                                     </tr>
