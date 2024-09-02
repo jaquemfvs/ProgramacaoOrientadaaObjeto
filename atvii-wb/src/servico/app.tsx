@@ -8,7 +8,7 @@ import Home from "./home";
 import Listagem from "./listagem";
 import NavBar from "./navBar";
 import EdicaoProduto from "../produto/editarProduto";
-import FormularioCadastroProduto from "../produto/formularioCadastroProduto";
+import FormularioCadastroProduto from "../pages/formularioCadastroProduto";
 import ListaProduto from "../produto/listaProduto";
 import RegistrarCompra from "./registrarCompra";
 import FormularioCadastroServico from "../pages/formularioCadastroServico";

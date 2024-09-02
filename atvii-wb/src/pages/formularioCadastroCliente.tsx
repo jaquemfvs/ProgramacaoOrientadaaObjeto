@@ -1,41 +1,48 @@
 import 'materialize-css/dist/css/materialize.min.css'
 
 const FormularioCadastroCliente = () => {
-    return (
-        <>
-            <div className="row">
-                <form className="col s12">
-                    <div className="row">
-                        <div className="input-field col s6">
-                            <input id="nome_cliente" type="text" className="validate" />
-                            <label htmlFor="nome_cliente">Nome</label>
+        return (
+            <>
+                <div className="row">
+                    <form className="col s12">
+                        <div className="row">
+                            <div className="input-field col s4">
+                                <input id="nome_cliente" type="text" className="validate" />
+                                <label htmlFor="nome_cliente">Nome</label>
+                            </div>
+                            <div className="input-field col s4">
+                                <input id="nome_social" type="text" className="validate" />
+                                <label htmlFor="nome_social">Nome social</label>
+                            </div>
+                            <div className="input-field col s4">
+                                <input id="genero" type="text" className="validate" />
+                                <label htmlFor="genero">Gênero</label>
+                            </div>
                         </div>
-                        <div className="input-field col s6">
-                            <input id="nome_social" type="text" className="validate" />
-                            <label htmlFor="nome_social">Nome social</label>
+                        <div className="row"> 
+                            <div className="input-field col s4">
+                                <input id="cpf" type="text" className="validate" />
+                                <label htmlFor="cpf">CPF</label>
+                            </div>
+                            <div className="input-field col s4">
+                                <input id="rg" type="text" className="validate" />
+                                <label htmlFor="rg">RG</label>
+                            </div>
+                            <div className="input-field col s4">
+                                <input id="telefone" type="text" className="validate" />
+                                <label htmlFor="telefone">Telefone</label>
+                            </div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="input-field col s6">
-                            <input id="data_nascimento" type="text" className="validate" />
-                            <label htmlFor="data_nascimento">Data de nascimento</label>
+                        <div className="row">
+                            <div className="col s12">
+                                <button className="btn waves-effect purple lighten-3" type="submit" name="action">Cadastrar
+                                    < i className="material-icons right">send</i>
+                                </button>
+                            </div>
                         </div>
-                        <div className="input-field col s6">
-                            <input id="cpf" type="text" className="validate" />
-                            <label htmlFor="cpf">CPF</label>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col s12">
-                            <button className="btn waves-effect purple lighten-3" type="submit" name="action">Cadastrar
-                                <i className="material-icons right">send</i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </>
-    )
-}
-
+                    </form>
+                </div>
+            </>
+        )
+    }
 export default FormularioCadastroCliente
